@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('test', async ({ page }) => {
+test('Test dodawania produktu do koszyka', async ({ page }) => {
 	await page.goto('http://localhost:5173/');
 	await page.goto('http://localhost:5173/kobieta');
 	await page.getByRole('link', { name: 'Odzież' }).click();
