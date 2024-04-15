@@ -1,4 +1,4 @@
-# React testing e2e exrcise
+# React testing e2e exercise
 
 If you want to use the code, you can download the repo and then type:
 
